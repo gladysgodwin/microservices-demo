@@ -7,7 +7,6 @@ metadata:
     name: catalogue-db
   namespace: sock-shop
 spec:
-  type: LoadBalancer
   ports:
     # the port that this service should serve on
   - port: 3306

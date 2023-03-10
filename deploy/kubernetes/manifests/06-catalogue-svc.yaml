@@ -10,7 +10,6 @@ metadata:
   namespace: sock-shop
 spec:
   ports:
-    type: LoadBalancer
     # the port that this service should serve on
   - port: 80
     targetPort: 80
